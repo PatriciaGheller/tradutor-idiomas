@@ -12,6 +12,8 @@ Um tradutor de idiomas moderno e interativo desenvolvido com HTML, CSS e JavaScr
 
 ## 📸 Interface
 
+![alt text](tradutor-v2.png)
+
 A interface é composta por:
 
 - Área de entrada de texto (`textarea`)
