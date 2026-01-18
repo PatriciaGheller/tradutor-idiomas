@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- ESTAMOS USANDO A VERSAO MAIS NOVA DO HTML -->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TRADUTOR</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+
+        <!-- Área de entrada de texto -->
+        <textarea class="input-texto" placeholder="Digite ou fale algo..."></textarea>
+
+        <!-- Controles -->
+        <div class="controle">
+            
+            <!-- Idioma de origem -->
+            <select class="idioma-origem">
+                <option value="pt-BR">Português</option>
+                <option value="en-US">Inglês</option>
+            </select>
+
+            <!-- Idioma de destino -->
+            <select class="idioma-destino">
+                <option value="en-US">Inglês</option>
+                <option value="de">Alemão</option>
+                <option value="ja">Japonês</option>
+                <option value="pt-BR">Português</option>
+            </select>
+
+            <!-- Botão Traduzir -->
+            <button onclick="traduzir()" class="btn-traduzir">
+                <img src="/img/traduzir.svg" alt="Traduzir">
+            </button>
+
+            <!-- Botão Microfone -->
+            <button class="btn-microfone">
+                <img src="/img/microfone.svg" alt="Microfone">
+            </button>
+
+            <!-- Botão Ouvir Tradução -->
+            <button class="btn-ouvir">
+                🔊
+            </button>
+
+        </div>
+
+        <!-- Resultado -->
+        <div class="resultado">
+            <h3 class="titulo-traducao">Tradução</h3>
+            <p class="traducao">A Tradução aparecerá aqui...</p>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
